@@ -164,18 +164,18 @@
 <div id="done" class="done_part">
 	<div class="container">
       	<div class="row">
-        	<div class="col-md-12">
-		        <div class="col-sm-4 col-xs-6">
+        	<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+		        <div class="col-sm-4 col-xs-6 col-md-6 col-lg-6">
 		          <i class="fa fa-flask"></i>
 		          <h3>2</h3>
 		          <p>Années d'expérience</p>
 		        </div>
-		        <div class="col-sm-4 col-xs-6"> 
+		        <div class="col-sm-4 col-xs-6 col-md-6 col-lg-6"> 
 		          <i class="fa fa-thumbs-up"></i>
 		          <h3>6</h3>                
 		          <p>Projets professionnel terminés</p>
 		        </div>
-		        <div class="col-sm-4 col-xs-6">
+		        <div class="col-sm-4 col-xs-6 col-md-6 col-lg-6">
 		          <i class="fa fa-users"></i>
 		          <h3>6</h3> 
 		          <p>Clients satisfaits</p>
