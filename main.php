@@ -9,13 +9,14 @@
   <link href="css/contact.css" rel="stylesheet" />  
 </head>
 <body>
-  <script src="js/jquery-1.10.2.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="//maps.google.com/maps/api/js?sensor=true"></script>
   <script src="js/anime.min.js" type="text/javascript"></script>
   <script src="js/main.js"></script>
-</body>
-</html>
+  <script src="js/jquery.1.11.1.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgGyzOzpWh_mTpdx-UPt92W6GI8hE7P3M"></script>
+  <script src="js/contact.js"></script>  
+
 
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
@@ -43,7 +44,7 @@
 <div id="home" class="home_part">
   <div class="edition_text">
     <h1>La fine équipe</h1>
-    <a href="#team" class="btn btn-default btn-lg" style="margin-top: 30px;">Poursuivre la visite</a>
+    <a href="#team" class="btn btn-default btn-lg go_on" style="margin-top: 30px;">Poursuivre la visite</a>
   </div>
 </div>
 
@@ -155,7 +156,7 @@
 	</div>
 </div>
 
- <section id="contact">
+<section id="contact">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-md-12 col-lg-12">
@@ -204,13 +205,9 @@
             </div>
           </div>
         </section>
-      </div>
-          </section> -->
+      </div> -->
+</section>
     <!--- End Content -->
   
-  <script src="js/jquery.1.11.1.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgGyzOzpWh_mTpdx-UPt92W6GI8hE7P3M"></script>
-  <script src="js/contact.js"></script>
 </body>
 </html>
