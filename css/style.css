@@ -53,3 +53,15 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
+.graph_t {
+	text-align: center;
+}
+
+.graph_n {
+	text-align: center;
+}
+
+.graph_tr {
+	text-align: center;
+}
