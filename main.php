@@ -60,7 +60,7 @@
 	<image src="images/epitech.png" style="width:300px; margin: auto;">
 	</div>
 	<div class="team_text">
-		<span>Nous travaillons ensemble dans le même but...</span>
+		<span>Nous travaillons ensemble dans le même but... EN COURS</span>
 	</div>
 </div>
 
