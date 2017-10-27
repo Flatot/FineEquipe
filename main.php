@@ -66,7 +66,7 @@
 	<div class="title_ann">
 		<span>Les Membres</span>
 	</div>
-	<div class="col-sm-4">
+	<div class="col-sm-4 col-md-4 col-lg-4">
 		<div class="name_dev">
 			<span>Thomas GEY</span>
 		</div>
@@ -92,7 +92,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-sm-4">
+	<div class="col-sm-4 col-md-4 col-lg-4">
 		<div class="name_dev">
 			<span>Nicolas RUBIO</span>
 		</div>
@@ -118,7 +118,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-sm-4">
+	<div class="col-sm-4 col-md-4 col-lg-4">
 		<div class="name_dev">
 			<span>Tristan FLATOT</span>
 		</div>
@@ -158,13 +158,13 @@
  <section id="contact">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12">
+          <div class="col-xs-12 col-md-12 col-lg-12">
             <form method="post" action="send_mail.php" name="sentEmail" id="sentEmail">
               <div class="rst-group-title">
                 <h4>Contactez-nous</h4>
               </div>
               <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6 col-md-6 col-lg-6">
                   <div class="form-group">
                     <input class="rst-page-input" type="text" placeholder="Nom" name="nom" id="nom"/>
                   </div>
@@ -175,14 +175,14 @@
                     <input class="rst-page-input" type="text" placeholder="Sujet" name="subject" id="subject"/>
                   </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 col-md-6 col-lg-6">
                   <div class="form-group">
                     <textarea class="rst-page-input" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
                   </div>
                 </div>
               </div>
               <div class="row">
-                <div class="col-xs-12 rst-contactsubmit">
+                <div class="col-xs-12 col-md-12 col-lg-12 rst-contactsubmit">
                   <input class="btn btn-primary btn-lg" type="submit" value="Envoyer"/>
                 </div>
               </div>
