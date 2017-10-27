@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet" />
-  <link href="css/contact.css" rel="stylesheet" />  
+  <link href="css/contact.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.css"> 
 </head>
 <body>
   <script src="js/bootstrap.min.js"></script>
@@ -161,10 +162,27 @@
 </div>
 
 <div id="done" class="done_part">
-  <div class="edition_text">
-    <h1>La fine équipe</h1>
-    <a href="#team" class="btn btn-default btn-lg go_on" style="margin-top: 30px;">Poursuivre la visite</a>
-  </div>
+	<div class="container">
+      	<div class="row">
+        	<div class="col-md-12">
+		        <div class="col-sm-4 col-xs-6">
+		          <i class="fa fa-flask"></i>
+		          <h3>2</h3>
+		          <p>Années d'expérience</p>
+		        </div>
+		        <div class="col-sm-4 col-xs-6"> 
+		          <i class="fa fa-thumbs-up"></i>
+		          <h3>6</h3>                
+		          <p>Projets professionnel terminés</p>
+		        </div>
+		        <div class="col-sm-4 col-xs-6">
+		          <i class="fa fa-users"></i>
+		          <h3>6</h3> 
+		          <p>Clients satisfaits</p>
+		        </div>
+		    </div>
+      	</div>
+    </div>
 </div>
 
 <section id="contact">
