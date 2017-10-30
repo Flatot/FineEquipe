@@ -71,7 +71,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="title_ann">
-				<span>Les Membres</span>
+				<span>Les membres</span>
 			</div>
 			<div class="col-sm-4 col-md-4 col-lg-4">
 				<div class="name_dev">
