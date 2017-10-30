@@ -7,6 +7,7 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet" />
   <link href="css/contact.css" rel="stylesheet" />
+  <link href="css/animate.min.css" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.css">
 </head>
 <body>
@@ -44,7 +45,7 @@
 
 <div id="home" class="home_part">
   <div class="edition_text">
-    <h1>La fine équipe</h1>
+    <h1 class="animated flipInX">La fine équipe</h1>
     <a href="#team" class="btn btn-primary btn-lg" style="margin-top: 30px;">Poursuivre la visite</a>
   </div>
 </div>
@@ -55,7 +56,7 @@
 	</div>
 	<div class="team_text">
 		<span>Nous sommes des étudiants en informatique à {EPITECH}. <Br/> Au cours de notre cursus,
-    nous avons appris à maîtriser divers langages <Br/> ce qui nous permet aujourd'hui de developper
+    nous avons appris à maîtriser divers langages <Br/> ce qui nous permet aujourd'hui de développer
   dans un large domaine. <Br /> EN COURS...</span>
 	<!-- </div>
 	<div style="text-align: center;">
@@ -159,7 +160,7 @@
 		<span>Les prestations</span>
 	</div>
 	<div class="container">
-		<div class="col-md-4 col-sm-4 col-xs-4" style="text-align: center;">
+		<div class="col-md-4 col-sm-4 col-xs-12" style="text-align: center;">
 			<div class="col-md-12 col-sm-12 col-xs-12" >
 				<i class="fa fa-mobile fa-3x icon_style"></i>
 			</div>
@@ -172,7 +173,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="col-md-4 col-sm-4 col-xs-4" style="text-align: center;">
+		<div class="col-md-4 col-sm-4 col-xs-12" style="text-align: center;">
 			<div class="col-md-12 col-sm-12 col-xs-12" >
 				<i class="fa fa-globe fa-3x icon_style"></i>
 			</div>
@@ -182,12 +183,12 @@
 				<li class="li_services"><i class="fa fa-newspaper-o icon_style"></i> Site vitrine</li>
 				<li class="li_services"><i class="fa fa-credit-card icon_style"></i> E-commerce</li>
 				<li class="li_services"><i class="fa fa-facebook icon_style"></i> Social</li>
-				<li class="li_services"><i class="fa fa-th icon_style"></i> Application</li>
+				<li class="li_services"><i class="fa fa-th icon_style"></i> Application & outil Web</li>
 				<li class="li_services"><i class="fa fa-paint-brush icon_style"></i> Maquettage</li>
 				</ul>
 			</div>
 		</div>
-		<div class="col-md-4 col-sm-4 col-xs-4" style="text-align: center;">
+		<div class="col-md-4 col-sm-4 col-xs-12" style="text-align: center;">
 			<div class="col-md-12 col-sm-12 col-xs-12" >
 				<i class="fa fa-code fa-3x icon_style"></i>
 			</div>
