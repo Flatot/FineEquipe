@@ -45,7 +45,7 @@
 <div id="home" class="home_part">
   <div class="edition_text">
     <h1>La fine équipe</h1>
-    <a href="#team" class="btn btn-default btn-lg go_on" style="margin-top: 30px;">Poursuivre la visite</a>
+    <a href="#team" class="btn btn-primary btn-lg" style="margin-top: 30px;">Poursuivre la visite</a>
   </div>
 </div>
 
@@ -156,8 +156,48 @@
 	<div class="title_ann">
 		<span>Les prestations</span>
 	</div>
-	<div class="team_text">
-		<span>Windows/Web/Mobile</span>
+	<div class="container">
+		<div class="col-md-4 col-sm-4 col-xs-4" style="text-align: center;">
+			<div class="col-md-12 col-sm-12 col-xs-12" >
+				<i class="fa fa-mobile fa-3x icon_style"></i>
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<h4 class="services_name">Mobile</h4>
+				<ul>
+				<li class="li_services"><i class="fa fa-apple icon_style"></i> iOS</li>
+				<li class="li_services"><i class="fa fa-android icon_style"></i> Android</li>
+				<li class="li_services"><i class="fa fa-paint-brush icon_style"></i> Maquettage</li>				
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-4 col-xs-4" style="text-align: center;">
+			<div class="col-md-12 col-sm-12 col-xs-12" >
+				<i class="fa fa-globe fa-3x icon_style"></i>
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<h4 class="services_name">Web</h4>
+				<ul>
+				<li class="li_services"><i class="fa fa-newspaper-o icon_style"></i> Site vitrine</li>
+				<li class="li_services"><i class="fa fa-credit-card icon_style"></i> E-commerce</li>
+				<li class="li_services"><i class="fa fa-facebook icon_style"></i> Social</li>				
+				<li class="li_services"><i class="fa fa-paint-brush icon_style"></i> Maquettage</li>				
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-4 col-xs-4" style="text-align: center;">
+			<div class="col-md-12 col-sm-12 col-xs-12" >
+				<i class="fa fa-code fa-3x icon_style"></i>
+			</div>
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<h4 class="services_name">Script & Algorithme</h4>
+				<ul>
+				<li class="li_services"><i class="fa fa-file-code-o icon_style"></i> C</li>
+				<li class="li_services"><i class="fa fa-file-code-o icon_style"></i> Python</li>
+				<li class="li_services"><i class="fa fa-terminal icon_style"></i> Powershell</li>
+				<li class="li_services"><i class="fa fa-terminal icon_style"></i> Shell</li>
+				</ul>
+			</div>
+		</div>		
 	</div>
 </div>
 
@@ -185,7 +225,7 @@
     </div>
 </div>
 
-<section id="contact">
+<section id="contact" class="contact_part">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-12 col-lg-12">

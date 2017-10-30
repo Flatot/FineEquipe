@@ -54,6 +54,23 @@
   background-size: cover;
 }
 
+.action_part {
+	margin-top: 30px;
+}
+
+.member_part {
+	background: #f0f0f5;
+	margin-top: 30px;
+}
+
+.contact_part {
+	background: #f0f0f5;
+}
+
+.done_part {
+	margin-top: 20px;
+}
+
 .graph_t {
 	text-align: center;
 }
@@ -64,4 +81,15 @@
 
 .graph_tr {
 	text-align: center;
+}
+
+.services_name {
+}
+
+.li_services {
+	list-style: none;
+}
+
+.icon_style {
+	color: black;
 }
