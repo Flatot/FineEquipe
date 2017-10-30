@@ -7,7 +7,7 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet" />
   <link href="css/contact.css" rel="stylesheet" />
-  <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.css"> 
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.css">
 </head>
 <body>
   <script src="js/bootstrap.min.js"></script>
@@ -16,7 +16,7 @@
   <script src="js/jquery.1.11.1.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgGyzOzpWh_mTpdx-UPt92W6GI8hE7P3M"></script>
-  <script src="js/contact.js"></script>  
+  <script src="js/contact.js"></script>
 
 
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -54,14 +54,16 @@
 		<span>L'équipe</span>
 	</div>
 	<div class="team_text">
-		<span>Nous sommes des étudiants en informatique à</span>
-	</div>
+		<span>Nous sommes des étudiants en informatique à {EPITECH}. <Br/> Au cours de notre cursus,
+    nous avons appris à maîtriser divers langages <Br/> ce qui nous permet aujourd'hui de developper
+  dans un large domaine. <Br /> EN COURS...</span>
+	<!-- </div>
 	<div style="text-align: center;">
 	<image src="images/epitech.png" style="width:300px; margin: auto;">
 	</div>
 	<div class="team_text">
 		<span>Nous travaillons ensemble dans le même but... EN COURS</span>
-	</div>
+	</div> -->
 </div>
 
 <div id="member" class="col-sm-12 col-lg-12 col-md-12 member_part">
@@ -81,7 +83,7 @@
 					<i>Description à venir</i>
 				</div>
 				<div class="graph_t">
-					<div id="graph_t"> 
+					<div id="graph_t">
 						<svg width="140" height="140" viewBox="0 0 140 140">
 						  <g fill="none" fill-rule="evenodd">
 							<g fill="#ff3333" fill-opacity=".15" transform="translate(0 6)">
@@ -107,7 +109,7 @@
 					<i>Description à venir</i>
 				</div>
 				<div class="graph_n">
-					<div id="graph_n"> 
+					<div id="graph_n">
 						<svg width="140" height="140" viewBox="0 0 140 140">
 						  <g fill="none" fill-rule="evenodd">
 							<g fill="#00b300" fill-opacity=".15" transform="translate(0 6)">
@@ -133,7 +135,7 @@
 					<i>Description à venir</i>
 				</div>
 				<div class="graph_tr">
-					<div id="graph_tr"> 
+					<div id="graph_tr">
 						<svg width="140" height="140" viewBox="0 0 140 140">
 						  <g fill="none" fill-rule="evenodd">
 							<g fill="#4d4dff" fill-opacity=".15" transform="translate(0 6)">
@@ -166,7 +168,7 @@
 				<ul>
 				<li class="li_services"><i class="fa fa-apple icon_style"></i> iOS</li>
 				<li class="li_services"><i class="fa fa-android icon_style"></i> Android</li>
-				<li class="li_services"><i class="fa fa-paint-brush icon_style"></i> Maquettage</li>				
+				<li class="li_services"><i class="fa fa-paint-brush icon_style"></i> Maquettage</li>
 				</ul>
 			</div>
 		</div>
@@ -180,8 +182,8 @@
 				<li class="li_services"><i class="fa fa-newspaper-o icon_style"></i> Site vitrine</li>
 				<li class="li_services"><i class="fa fa-credit-card icon_style"></i> E-commerce</li>
 				<li class="li_services"><i class="fa fa-facebook icon_style"></i> Social</li>
-				<li class="li_services"><i class="fa fa-th icon_style"></i> Application</li>					
-				<li class="li_services"><i class="fa fa-paint-brush icon_style"></i> Maquettage</li>				
+				<li class="li_services"><i class="fa fa-th icon_style"></i> Application</li>
+				<li class="li_services"><i class="fa fa-paint-brush icon_style"></i> Maquettage</li>
 				</ul>
 			</div>
 		</div>
@@ -198,7 +200,7 @@
 				<li class="li_services"><i class="fa fa-terminal icon_style"></i> Shell</li>
 				</ul>
 			</div>
-		</div>		
+		</div>
 	</div>
 </div>
 
@@ -211,14 +213,14 @@
 		          <h3>2</h3>
 		          <p>Années d'expérience</p>
 		        </div>
-		        <div class="col-sm-4 col-xs-6"> 
+		        <div class="col-sm-4 col-xs-6">
 		          <i class="fa fa-thumbs-up"></i>
-		          <h3>6</h3>                
+		          <h3>6</h3>
 		          <p>Projets professionnel terminés</p>
 		        </div>
 		        <div class="col-sm-4 col-xs-6">
 		          <i class="fa fa-users"></i>
-		          <h3>6</h3> 
+		          <h3>6</h3>
 		          <p>Clients satisfaits</p>
 		        </div>
 		    </div>
@@ -277,6 +279,6 @@
     </section>
   </div> -->
 </section>
-  
+
 </body>
 </html>
