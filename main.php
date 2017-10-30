@@ -179,7 +179,8 @@
 				<ul>
 				<li class="li_services"><i class="fa fa-newspaper-o icon_style"></i> Site vitrine</li>
 				<li class="li_services"><i class="fa fa-credit-card icon_style"></i> E-commerce</li>
-				<li class="li_services"><i class="fa fa-facebook icon_style"></i> Social</li>				
+				<li class="li_services"><i class="fa fa-facebook icon_style"></i> Social</li>
+				<li class="li_services"><i class="fa fa-th icon_style"></i> Application</li>					
 				<li class="li_services"><i class="fa fa-paint-brush icon_style"></i> Maquettage</li>				
 				</ul>
 			</div>
