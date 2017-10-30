@@ -11,10 +11,10 @@
   <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.css">
 </head>
 <body>
+  <script src="js/jquery.1.11.1.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/anime.min.js" type="text/javascript"></script>
   <script src="js/main.js"></script>
-  <script src="js/jquery.1.11.1.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgGyzOzpWh_mTpdx-UPt92W6GI8hE7P3M"></script>
   <script src="js/contact.js"></script>
