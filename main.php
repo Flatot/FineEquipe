@@ -45,7 +45,7 @@
 
 <div id="home" class="home_part">
   <div class="edition_text">
-    <h1 class="animated flipInX">La fine équipe</h1>
+    <Titlebroadmoor class="animated flipInX" font-face="broadmoor">La fine équipe</Titlebroadmoor>
     <a href="#team" class="btn btn-primary btn-lg" style="margin-top: 30px;">Poursuivre la visite</a>
   </div>
 </div>
