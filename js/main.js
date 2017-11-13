@@ -10,3 +10,29 @@ var morphing = anime({
   duration: 2000,
   loop: true
 });
+
+
+
+jQuery(function ($) {
+  
+  (function () {
+        $(".home_part").height($(window).height());
+
+        $(window).resize(function(){
+            $(".home_part").height($(window).height());
+        });
+
+    }());
+
+    (function () {
+      $('.header').sticky({
+          topSpacing: 0
+      });
+
+      $('body').scrollspy({
+          target: '#navbar-collapse-main',
+          offset: 70
+      })
+    }());
+
+});

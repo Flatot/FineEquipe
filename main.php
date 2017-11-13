@@ -10,7 +10,7 @@
   <link href="css/animate.min.css" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.css">
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="30">
   <script src="js/jquery.1.11.1.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/anime.min.js" type="text/javascript"></script>
@@ -18,37 +18,44 @@
   <script src="js/bootstrap.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgGyzOzpWh_mTpdx-UPt92W6GI8hE7P3M"></script>
   <script src="js/contact.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/particles.js"></script>
 
 
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">La Fine Equipe</a>
-    </div>
-    <div class="collapse navbar-collapse" id="navbar-collapse-main">
-      <ul class="nav navbar-nav navbar-right">
-		<li><a href="#">Accueil</a></li>
-        <li><a href="#team">L'équipe</a></li>
-        <li><a href="#member">Les membres</a></li>
-        <li><a href="#action">Les prestations</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<div id="home" class="home_part">
-  <div class="edition_text">
-    <Titlebroadmoor class="animated flipInX" font-face="broadmoor">La fine équipe</Titlebroadmoor>
-    <a href="#team" class="btn btn-primary btn-lg" style="margin-top: 30px;">Poursuivre la visite</a>
-  </div>
+<div id="particles-js">
+	<div id="home" class="home_part">
+	  <div class="edition_text">
+	    <Titlebroadmoor class="animated flipInX" font-face="broadmoor">La fine équipe</Titlebroadmoor><br />
+	    <div class="down-icon"><a href="#team"><i class="fa fa-angle-down" style="font-size:72px;color:#fff"></i></a></div>
+	  </div>
+	</div>
 </div>
+
+<!-- Navigation -->
+<header class="header">
+	<nav class="navbar navbar-default" role="navigation">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">La Fine Equipe</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="navbar-collapse-main">
+	      <ul class="nav navbar-nav navbar-right">
+			<li><a href="#">Accueil</a></li>
+	        <li><a href="#team">L'équipe</a></li>
+	        <li><a href="#member">Les membres</a></li>
+	        <li><a href="#action">Les prestations</a></li>
+	        <li><a href="#contact">Contact</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+</header>
 
 <div id="team" class="team_part">
 	<div class="title_ann">
