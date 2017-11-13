@@ -105,3 +105,34 @@
 .icon_style {
 	color: black;
 }
+
+.header {
+    border-bottom: 0px solid #eee;
+    position: relative;
+    width: 100%;
+    z-index: 998;
+    padding-bottom: 1px;
+    background: #fff;
+}
+
+.header::after {
+    border-bottom:0px solid #eee;
+    width: 100%;
+    position: absolute;
+    content: "";
+    height: 2px;
+    bottom: 1px;
+    left: 0;
+}
+
+.down-icon {
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    border-radius: 16px;
+    height: 50px;
+    width: 30px;
+    margin-left: -17px;
+    display: block;
+    z-index: 10;
+}
