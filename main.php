@@ -103,7 +103,7 @@
 					<span>Nicolas RUBIO</span>
 				</div>
 				<div style="text-align: center;">
-				<image src="images/nicolas.png" class="img-circle img-responsive" style="width:200px; margin: auto;">
+				<image src="images/nicolas.jpg" class="img-circle img-responsive" style="width:200px; margin: auto;">
 				</div>
 				<div class="team_text">
 					<i>Description à venir</i>
