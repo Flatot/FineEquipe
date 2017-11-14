@@ -44,6 +44,7 @@ Highcharts.chart('graph_'+name, {
 
     yAxis: {
         gridLineInterpolation: 'polygon',
+        gridLineColor: '#999999',
         lineWidth: 0,
         min: 0
     },
