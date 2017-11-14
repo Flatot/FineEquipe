@@ -5,8 +5,16 @@ $(document).ready(function () {
 });
 
 function print_graph(name) {
-
-Highcharts.chart('graph_'+name, {
+  if (name == 't') { //Toto
+    var arr_skill = ['Sales', 'Marketing', 'Development', 'Customer Support', 'Information Technology', 'Administration'];
+  }
+  else if (name == 'n') { //Nico
+    var arr_skill = ['Sales', 'Marketing', 'Development', 'Customer Support', 'Information Technology', 'Administration'];
+  }
+  else { //Flatflat
+    var arr_skill = ['Sales', 'Marketing', 'Development', 'Customer Support', 'Information Technology', 'Administration'];
+  }
+  Highcharts.chart('graph_'+name, {
 
     chart: {
         backgroundColor: '#f0f0f5',
@@ -36,8 +44,7 @@ Highcharts.chart('graph_'+name, {
     },
 
     xAxis: {
-        categories: ['Sales', 'Marketing', 'Development', 'Customer Support',
-                'Information Technology', 'Administration'],
+        categories: arr_skill,
         tickmarkPlacement: 'on',
         lineWidth: 0
     },
