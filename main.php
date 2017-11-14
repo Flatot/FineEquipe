@@ -20,6 +20,9 @@
   <script src="js/contact.js"></script>
   <script src="js/jquery.sticky.js"></script>
   <script src="js/particles.js"></script>
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
 
 
 <div id="particles-js">
@@ -91,18 +94,7 @@
 					<i>Description à venir</i>
 				</div>
 				<div class="graph_t">
-					<div id="graph_t">
-						<svg width="140" height="140" viewBox="0 0 140 140">
-						  <g fill="none" fill-rule="evenodd">
-							<g fill="#ff3333" fill-opacity=".15" transform="translate(0 6)">
-							  <polygon points="70 0 136.574 48.369 111.145 126.631 28.855 126.631 3.426 48.369"></polygon>
-							  <polygon points="70 18 119.455 53.931 100.565 112.069 39.435 112.069 20.545 53.931"></polygon>
-							  <polygon points="70 34.86 101.727 57.911 89.609 95.209 50.391 95.209 38.273 57.911"></polygon>
-							  <polygon points="70 50.898 84.864 61.697 79.186 79.171 60.814 79.171 55.136 61.697"></polygon>
-							</g>
-							<polygon class="graph_t" stroke-width="3" stroke="#ff3333" points="70 33.84167800036825 118.99507776468423 59.79007776468422 106.51314458847357 126.31483352973669 56.64422235315779 91.78932199963175 13.267678000368248 57.84253341189468 "></polygon>
-						  </g>
-						</svg>
+					<div id="graph_t" style="min-width: 400px; max-width: 600px; height: 400px; margin: 0 auto">
 					</div>
 				</div>
 			</div>
@@ -117,18 +109,7 @@
 					<i>Description à venir</i>
 				</div>
 				<div class="graph_n">
-					<div id="graph_n">
-						<svg width="140" height="140" viewBox="0 0 140 140">
-						  <g fill="none" fill-rule="evenodd">
-							<g fill="#00b300" fill-opacity=".15" transform="translate(0 6)">
-							  <polygon points="70 0 136.574 48.369 111.145 126.631 28.855 126.631 3.426 48.369"></polygon>
-							  <polygon points="70 18 119.455 53.931 100.565 112.069 39.435 112.069 20.545 53.931"></polygon>
-							  <polygon points="70 34.86 101.727 57.911 89.609 95.209 50.391 95.209 38.273 57.911"></polygon>
-							  <polygon points="70 50.898 84.864 61.697 79.186 79.171 60.814 79.171 55.136 61.697"></polygon>
-							</g>
-							<polygon class="graph_n" stroke-width="3" stroke="#00b300" points="70 33.84167800036825 118.99507776468423 59.79007776468422 106.51314458847357 126.31483352973669 56.64422235315779 91.78932199963175 13.267678000368248 57.84253341189468 "></polygon>
-						  </g>
-						</svg>
+					<div id="graph_n" style="min-width: 400px; max-width: 600px; height: 400px; margin: 0 auto">
 					</div>
 				</div>
 			</div>
@@ -143,18 +124,7 @@
 					<i>Description à venir</i>
 				</div>
 				<div class="graph_tr">
-					<div id="graph_tr">
-						<svg width="140" height="140" viewBox="0 0 140 140">
-						  <g fill="none" fill-rule="evenodd">
-							<g fill="#4d4dff" fill-opacity=".15" transform="translate(0 6)">
-							  <polygon points="70 0 136.574 48.369 111.145 126.631 28.855 126.631 3.426 48.369"></polygon>
-							  <polygon points="70 18 119.455 53.931 100.565 112.069 39.435 112.069 20.545 53.931"></polygon>
-							  <polygon points="70 34.86 101.727 57.911 89.609 95.209 50.391 95.209 38.273 57.911"></polygon>
-							  <polygon points="70 50.898 84.864 61.697 79.186 79.171 60.814 79.171 55.136 61.697"></polygon>
-							</g>
-							<polygon class="graph_tr" stroke-width="3" stroke="#4d4dff" points="70 33.84167800036825 118.99507776468423 59.79007776468422 106.51314458847357 126.31483352973669 56.64422235315779 91.78932199963175 13.267678000368248 57.84253341189468 "></polygon>
-						  </g>
-						</svg>
+					<div id="graph_tr" style="min-width: 400px; max-width: 600px; height: 400px; margin: 0 auto">
 					</div>
 				</div>
 			</div>
