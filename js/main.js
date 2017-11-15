@@ -6,13 +6,19 @@ $(document).ready(function () {
 
 function print_graph(name) {
   if (name == 't') { //Toto
-    var arr_skill = ['Sales', 'Marketing', 'Development', 'Customer Support', 'Information Technology', 'Administration'];
+    var arr_skill = ['C', 'MySQL', 'NodeJS', 'Android', 'HTML/CSS', 'Firebase'];
+    var data_skill = [90, 80, 85, 85, 60, 85];
+    var v_color = "#ff3333";
   }
   else if (name == 'n') { //Nico
-    var arr_skill = ['Sales', 'Marketing', 'Development', 'Customer Support', 'Information Technology', 'Administration'];
+    var arr_skill = ['C', 'PowerShell', 'PHP', 'JavaScript', 'Python', 'MySQL/MariaDB'];
+    var data_skill = [90, 80, 85, 85, 60, 85];
+    var v_color = "#33cc00";
   }
   else { //Flatflat
-    var arr_skill = ['Sales', 'Marketing', 'Development', 'Customer Support', 'Information Technology', 'Administration'];
+    var arr_skill = ['C', 'PHP', 'JavaScript', 'Python', 'MySQL', 'Shell'];
+    var data_skill = [90, 80, 85, 85, 60, 85];
+    var v_color = "#1a75ff";
   }
   Highcharts.chart('graph_'+name, {
 
@@ -58,12 +64,13 @@ function print_graph(name) {
 
     tooltip: {
         shared: true,
-        pointFormat: '<span style="color:{series.color}">{series.name}: <b>${point.y:,.0f}</b><br/>'
+        pointFormat: '<span style="color:{series.color}">{point.y:,.0f}</b><br/>'
     },
 
     series: [{
-        name: 'Allocated Budget',
-        data: [43000, 19000, 60000, 35000, 17000, 10000],
+        name: 'Skills',
+        color: v_color,
+        data: data_skill,
         pointPlacement: 'on'
     }]
 

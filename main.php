@@ -94,7 +94,7 @@
 					<i>Description à venir</i>
 				</div>
 				<div class="graph_t">
-					<div id="graph_t" style="min-width: 400px; max-width: 600px; height: 400px; margin: 0 auto">
+					<div id="graph_t" class="graph_style">
 					</div>
 				</div>
 			</div>
@@ -109,7 +109,7 @@
 					<i>Description à venir</i>
 				</div>
 				<div class="graph_n">
-					<div id="graph_n" style="min-width: 400px; max-width: 600px; height: 400px; margin: 0 auto">
+					<div id="graph_n" class="graph_style">
 					</div>
 				</div>
 			</div>
@@ -124,7 +124,7 @@
 					<i>Description à venir</i>
 				</div>
 				<div class="graph_tr">
-					<div id="graph_tr" style="min-width: 400px; max-width: 600px; height: 400px; margin: 0 auto">
+					<div id="graph_tr" class="graph_style">
 					</div>
 				</div>
 			</div>
