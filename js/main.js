@@ -6,18 +6,18 @@ $(document).ready(function () {
 
 function print_graph(name) {
   if (name == 't') { //Toto
-    var arr_skill = ['C', 'MySQL', 'NodeJS', 'Android', 'HTML/CSS', 'Firebase'];
-    var data_skill = [90, 80, 85, 85, 60, 85];
+    var arr_skill = ['Mobile', 'Web', 'Analytics', 'Backend/NoSQL', 'NoSQL', 'Gestion de projet'];
+    var data_skill = [60, 30, 75, 75, 80, 80];
     var v_color = "#ff3333";
   }
   else if (name == 'n') { //Nico
-    var arr_skill = ['C', 'PowerShell', 'PHP', 'JavaScript', 'Python', 'MySQL/MariaDB'];
-    var data_skill = [90, 80, 85, 85, 60, 85];
+    var arr_skill = ['Scripting/Algorithme', 'Gestion de projet', 'Software', 'Cobol', 'Admin Base de données', 'Web'];
+    var data_skill = [80, 80, 60, 30, 70, 80];
     var v_color = "#33cc00";
   }
   else { //Flatflat
-    var arr_skill = ['C', 'PHP', 'JavaScript', 'Python', 'MySQL', 'Shell'];
-    var data_skill = [90, 80, 85, 85, 60, 85];
+    var arr_skill = ['Web', 'SQL', 'ASP/PHP', 'Mobile', 'C/Python', 'Access management'];
+    var data_skill = [80, 75, 75, 50, 80, 65];
     var v_color = "#1a75ff";
   }
   Highcharts.chart('graph_'+name, {
