@@ -28,7 +28,7 @@
 	<div id="home" class="home_part">
 	  <div class="edition_text">
 	    <!--<Titlebroadmoor class="animated flipInX" font-face="broadmoor">La fine équipe</Titlebroadmoor><br /> -->
-	    <div class="down-icon"><a href="#team"><i class="fa fa-angle-down" style="font-size:72px;color:#fff"></i></a></div>
+	    <div class="down-icon"><a class="js-scrollTo" href="#team"><i class="fa fa-angle-down" style="font-size:72px;color:#fff"></i></a></div>
 	  </div>
 	</div>
 </div>
@@ -49,10 +49,10 @@
 	    <div class="collapse navbar-collapse" id="navbar-collapse-main">
 	      <ul class="nav navbar-nav navbar-right">
 			<li><a class="js-scrollTo" href="#">Accueil</a></li>
-	        <li><a  class="js-scrollTo" href="#team">L'équipe</a></li>
-	        <li><a  class="js-scrollTo" href="#member">Les membres</a></li>
-	        <li><a  class="js-scrollTo" href="#action">Les prestations</a></li>
-	        <li><a  class="js-scrollTo" href="#contact">Contact</a></li>
+	        <li><a class="js-scrollTo" href="#team">L'équipe</a></li>
+	        <li><a class="js-scrollTo" href="#member">Les membres</a></li>
+	        <li><a class="js-scrollTo" href="#action">Les prestations</a></li>
+	        <li><a class="js-scrollTo" href="#contact">Contact</a></li>
 	      </ul>
 	    </div>
 	  </div>
