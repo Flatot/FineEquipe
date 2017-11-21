@@ -73,7 +73,7 @@
 	<div class="team_text">
 		<span>Nous travaillons ensemble dans le même but... EN COURS</span>
 	</div> -->
-	<div class="container-fluid">
+	<div class="container-fluid space_team">
 		<div class="row">
 			<div class="col-sm-4 col-md-4 col-lg-4">
 				<div class="name_dev">
