@@ -85,7 +85,7 @@
 				<div class="team_text">
 					<i>Description à venir</i>
 				</div>
-				<div class="graph_t">
+				<div class="graph_name">
 					<div id="graph_t" class="graph_style">
 					</div>
 				</div>
@@ -100,7 +100,7 @@
 				<div class="team_text">
 					<i>Description à venir</i>
 				</div>
-				<div class="graph_n">
+				<div class="graph_name">
 					<div id="graph_n" class="graph_style">
 					</div>
 				</div>
@@ -115,7 +115,7 @@
 				<div class="team_text">
 					<i>Description à venir</i>
 				</div>
-				<div class="graph_tr">
+				<div class="graph_name">
 					<div id="graph_tr" class="graph_style">
 					</div>
 				</div>

@@ -70,11 +70,6 @@
 	margin-top: 30px;
 }
 
-.member_part {
-	background: #f0f0f5;
-	margin-top: 30px;
-}
-
 .contact_part {
 	background: #f0f0f5;
 }
@@ -83,15 +78,7 @@
 	margin-top: 20px;
 }
 
-.graph_t {
-	text-align: center;
-}
-
-.graph_n {
-	text-align: center;
-}
-
-.graph_tr {
+.graph_name {
 	text-align: center;
 }
 
