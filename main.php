@@ -28,7 +28,7 @@
 <div id="particles-js">
 	<div id="home" class="home_part">
 	  <div class="edition_text">
-	    <Titlebroadmoor class="animated flipInX" font-face="broadmoor">La fine équipe</Titlebroadmoor><br />
+	    <!--<Titlebroadmoor class="animated flipInX" font-face="broadmoor">La fine équipe</Titlebroadmoor><br /> -->
 	    <div class="down-icon"><a href="#team"><i class="fa fa-angle-down" style="font-size:72px;color:#fff"></i></a></div>
 	  </div>
 	</div>
