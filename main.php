@@ -50,7 +50,6 @@
 	      <ul class="nav navbar-nav navbar-right">
 			<li><a class="js-scrollTo" href="#">Accueil</a></li>
 	        <li><a class="js-scrollTo" href="#team">L'équipe</a></li>
-	        <li><a class="js-scrollTo" href="#member">Les membres</a></li>
 	        <li><a class="js-scrollTo" href="#action">Les prestations</a></li>
 	        <li><a class="js-scrollTo" href="#contact">Contact</a></li>
 	      </ul>
@@ -74,14 +73,8 @@
 	<div class="team_text">
 		<span>Nous travaillons ensemble dans le même but... EN COURS</span>
 	</div> -->
-</div>
-
-<div id="member" class="col-sm-12 col-lg-12 col-md-12 member_part">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="title_ann">
-				<span>Les membres</span>
-			</div>
 			<div class="col-sm-4 col-md-4 col-lg-4">
 				<div class="name_dev">
 					<span>Thomas GEY</span>

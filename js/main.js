@@ -30,7 +30,7 @@ function print_graph(name) {
   Highcharts.chart('graph_'+name, {
 
     chart: {
-        backgroundColor: '#f0f0f5',
+        backgroundColor: '#FFFF',
         polar: true,
         type: 'line'
     },
