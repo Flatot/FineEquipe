@@ -85,9 +85,9 @@
 				<div class="team_text">
 					<i>Description à venir</i>
 				</div>
-        <div><a href=""><i class="fa fa-linkedin-square fa-2x" style=""></i></a>
-        <a href=""><i class="fa fa-github-square fa-2x" style="color: #1a1a1a;"></i></a>
-        <a href=""><image src="https://cremedelacreme.io/img/logos/logoDarkMin.svg" style="width: 33px; vertical-align: top;"></image></a></div>
+        <div><a href="https://www.linkedin.com/in/thomas-gey-7895b1133/" onclick="window.open(this.href); return false;"><i class="fa fa-linkedin-square fa-2x" style=""></i></a>
+        <a href="" onclick="window.open(this.href); return false;"><i class="fa fa-github-square fa-2x" style="color: #1a1a1a;"></i></a>
+        <a href="https://cremedelacreme.io/thomas.gey" onclick="window.open(this.href); return false;"><image src="https://cremedelacreme.io/img/logos/logoDarkMin.svg" style="width: 33px; vertical-align: top;"></image></a></div>
 				<div class="graph_name">
 					<div id="graph_t" class="graph_style">
 					</div>
@@ -103,9 +103,9 @@
 				<div class="team_text">
 					<i>Description à venir</i>
 				</div>
-        <div><a href=""><i class="fa fa-linkedin-square fa-2x" style=""></i></a>
-        <a href=""><i class="fa fa-github-square fa-2x" style="color: #1a1a1a;"></i></a>
-        <a href=""><image src="https://cremedelacreme.io/img/logos/logoDarkMin.svg" style="width: 33px; vertical-align: top;"></image></a></div>
+        <div><a href="https://www.linkedin.com/in/nicolas-rubio-r/" onclick="window.open(this.href); return false;"><i class="fa fa-linkedin-square fa-2x" style=""></i></a>
+        <a href="https://github.com/RubioN" onclick="window.open(this.href); return false;"><i class="fa fa-github-square fa-2x" style="color: #1a1a1a;"></i></a>
+        <a href="https://cremedelacreme.io/nicolas.rubio" onclick="window.open(this.href); return false;"><image src="https://cremedelacreme.io/img/logos/logoDarkMin.svg" style="width: 33px; vertical-align: top;"></image></a></div>
 				<div class="graph_name">
 					<div id="graph_n" class="graph_style">
 					</div>
@@ -121,9 +121,9 @@
 				<div class="team_text">
 					<i>Description à venir</i>
 				</div>
-        <div><a href=""><i class="fa fa-linkedin-square fa-2x" style=""></i></a>
-        <a href=""><i class="fa fa-github-square fa-2x" style="color: #1a1a1a;"></i></a>
-        <a href=""><image src="https://cremedelacreme.io/img/logos/logoDarkMin.svg" style="width: 33px; vertical-align: top;"></image></a></div>        
+        <div><a href="https://www.linkedin.com/in/tristan-flatot-4a65a3133/" onclick="window.open(this.href); return false;"><i class="fa fa-linkedin-square fa-2x" style=""></i></a>
+        <a href="https://github.com/Flatot" onclick="window.open(this.href); return false;"><i class="fa fa-github-square fa-2x" style="color: #1a1a1a;"></i></a>
+        <a href="https://cremedelacreme.io/tristan.flatot" onclick="window.open(this.href); return false;"><image src="https://cremedelacreme.io/img/logos/logoDarkMin.svg" style="width: 33px; vertical-align: top;"></image></a></div>        
 				<div class="graph_name">
 					<div id="graph_tr" class="graph_style">
 					</div>
