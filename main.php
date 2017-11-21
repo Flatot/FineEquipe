@@ -85,6 +85,9 @@
 				<div class="team_text">
 					<i>Description à venir</i>
 				</div>
+        <div><a href=""><i class="fa fa-linkedin-square fa-2x" style=""></i></a>
+        <a href=""><i class="fa fa-github-square fa-2x" style="color: #1a1a1a;"></i></a>
+        <a href=""><image src="https://cremedelacreme.io/img/logos/logoDarkMin.svg" style="width: 33px; vertical-align: top;"></image></a></div>
 				<div class="graph_name">
 					<div id="graph_t" class="graph_style">
 					</div>
@@ -100,6 +103,9 @@
 				<div class="team_text">
 					<i>Description à venir</i>
 				</div>
+        <div><a href=""><i class="fa fa-linkedin-square fa-2x" style=""></i></a>
+        <a href=""><i class="fa fa-github-square fa-2x" style="color: #1a1a1a;"></i></a>
+        <a href=""><image src="https://cremedelacreme.io/img/logos/logoDarkMin.svg" style="width: 33px; vertical-align: top;"></image></a></div>
 				<div class="graph_name">
 					<div id="graph_n" class="graph_style">
 					</div>
@@ -115,6 +121,9 @@
 				<div class="team_text">
 					<i>Description à venir</i>
 				</div>
+        <div><a href=""><i class="fa fa-linkedin-square fa-2x" style=""></i></a>
+        <a href=""><i class="fa fa-github-square fa-2x" style="color: #1a1a1a;"></i></a>
+        <a href=""><image src="https://cremedelacreme.io/img/logos/logoDarkMin.svg" style="width: 33px; vertical-align: top;"></image></a></div>        
 				<div class="graph_name">
 					<div id="graph_tr" class="graph_style">
 					</div>
