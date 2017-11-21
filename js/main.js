@@ -13,7 +13,7 @@ $(document).ready(function () {
 
 function print_graph(name) {
   if (name == 't') { //Toto
-    var arr_skill = ['Mobile', 'Web', 'Analytics', 'Backend/NoSQL', 'NoSQL', 'Gestion de projet'];
+    var arr_skill = ['Mobile', 'Web', 'Analytics', 'Backend/NoSQL', 'C/Python', 'Gestion de projet'];
     var data_skill = [60, 30, 75, 75, 80, 80];
     var v_color = "#ff3333";
   }
@@ -24,7 +24,7 @@ function print_graph(name) {
   }
   else { //Flatflat
     var arr_skill = ['Web', 'SQL', 'ASP/PHP', 'Mobile', 'C/Python', 'Access management'];
-    var data_skill = [80, 75, 75, 50, 80, 65];
+    var data_skill = [75, 70, 75, 50, 80, 60];
     var v_color = "#1a75ff";
   }
   Highcharts.chart('graph_'+name, {
