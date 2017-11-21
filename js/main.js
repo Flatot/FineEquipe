@@ -2,6 +2,13 @@ $(document).ready(function () {
   print_graph('t');
   print_graph('n');
   print_graph('tr');
+
+  $('.js-scrollTo').on('click', function() {
+			var page = $(this).attr('href');
+			var speed = 750;
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed );
+			return false;
+		});
 });
 
 function print_graph(name) {

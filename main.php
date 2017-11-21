@@ -19,10 +19,9 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgGyzOzpWh_mTpdx-UPt92W6GI8hE7P3M"></script>
   <script src="js/contact.js"></script>
   <script src="js/jquery.sticky.js"></script>
-  <script src="js/particles.js"></script>
   <script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/highcharts-more.js"></script>
-<script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/highcharts-more.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
 
 
 <div id="particles-js">
@@ -49,11 +48,11 @@
 	    </div>
 	    <div class="collapse navbar-collapse" id="navbar-collapse-main">
 	      <ul class="nav navbar-nav navbar-right">
-			<li><a href="#">Accueil</a></li>
-	        <li><a href="#team">L'équipe</a></li>
-	        <li><a href="#member">Les membres</a></li>
-	        <li><a href="#action">Les prestations</a></li>
-	        <li><a href="#contact">Contact</a></li>
+			<li><a class="js-scrollTo" href="#">Accueil</a></li>
+	        <li><a  class="js-scrollTo" href="#team">L'équipe</a></li>
+	        <li><a  class="js-scrollTo" href="#member">Les membres</a></li>
+	        <li><a  class="js-scrollTo" href="#action">Les prestations</a></li>
+	        <li><a  class="js-scrollTo" href="#contact">Contact</a></li>
 	      </ul>
 	    </div>
 	  </div>
