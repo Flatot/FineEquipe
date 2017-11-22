@@ -1,3 +1,7 @@
+<head>
+  <meta charset="UTF-8" />
+</head>
+
 <div class="modal fade" id="modal_cv_n">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
