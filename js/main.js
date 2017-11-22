@@ -11,6 +11,10 @@ $(document).ready(function () {
 		});
 });
 
+function open_cv(name) {
+  $("#modal_cv_"+name).modal("show");
+}
+
 function print_graph(name) {
   if (name == 't') { //Toto
     var arr_skill = ['Mobile', 'Web', 'Analytics', 'Backend/NoSQL', 'C/Python', 'Gestion de projet'];

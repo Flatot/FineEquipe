@@ -1,3 +1,5 @@
+<?php require ("src/modal.php"); ?>
+
 <html lang="en" >
 <head>
   <meta charset="utf-8" />
@@ -87,7 +89,8 @@
 				</div>
         <div><a href="https://www.linkedin.com/in/thomas-gey-7895b1133/" onclick="window.open(this.href); return false;"><i class="fa fa-linkedin-square fa-2x" style=""></i></a>
         <a href="https://github.com/tgey" onclick="window.open(this.href); return false;"><i class="fa fa-github-square fa-2x" style="color: #1a1a1a;"></i></a>
-        <a href="https://cremedelacreme.io/thomas.gey" onclick="window.open(this.href); return false;"><image src="https://cremedelacreme.io/img/logos/logoDarkMin.svg" style="width: 33px; vertical-align: top;"></image></a></div>
+        <a href="https://cremedelacreme.io/thomas.gey" onclick="window.open(this.href); return false;"><image src="https://cremedelacreme.io/img/logos/logoDarkMin.svg" style="width: 33px; vertical-align: top;"></image></a>
+        <a onclick="open_cv('t');"><i class="fa fa-file-pdf-o fa-2x cl_pt"></i></a></div>
 				<div class="graph_name">
 					<div id="graph_t" class="graph_style">
 					</div>
@@ -105,7 +108,8 @@
 				</div>
         <div><a href="https://www.linkedin.com/in/nicolas-rubio-r/" onclick="window.open(this.href); return false;"><i class="fa fa-linkedin-square fa-2x" style=""></i></a>
         <a href="https://github.com/RubioN" onclick="window.open(this.href); return false;"><i class="fa fa-github-square fa-2x" style="color: #1a1a1a;"></i></a>
-        <a href="https://cremedelacreme.io/nicolas.rubio" onclick="window.open(this.href); return false;"><image src="https://cremedelacreme.io/img/logos/logoDarkMin.svg" style="width: 33px; vertical-align: top;"></image></a></div>
+        <a href="https://cremedelacreme.io/nicolas.rubio" onclick="window.open(this.href); return false;"><image src="https://cremedelacreme.io/img/logos/logoDarkMin.svg" style="width: 33px; vertical-align: top;"></image></a>
+        <a onclick="open_cv('n');"><i class="fa fa-file-pdf-o fa-2x cl_pt"></i></a></div>
 				<div class="graph_name">
 					<div id="graph_n" class="graph_style">
 					</div>
@@ -123,7 +127,8 @@
 				</div>
         <div><a href="https://www.linkedin.com/in/tristan-flatot-4a65a3133/" onclick="window.open(this.href); return false;"><i class="fa fa-linkedin-square fa-2x" style=""></i></a>
         <a href="https://github.com/Flatot" onclick="window.open(this.href); return false;"><i class="fa fa-github-square fa-2x" style="color: #1a1a1a;"></i></a>
-        <a href="https://cremedelacreme.io/tristan.flatot" onclick="window.open(this.href); return false;"><image src="https://cremedelacreme.io/img/logos/logoDarkMin.svg" style="width: 33px; vertical-align: top;"></image></a></div>
+        <a href="https://cremedelacreme.io/tristan.flatot" onclick="window.open(this.href); return false;"><image src="https://cremedelacreme.io/img/logos/logoDarkMin.svg" style="width: 33px; vertical-align: top;"></image></a>
+        <a onclick="open_cv('tr');"><i class="fa fa-file-pdf-o fa-2x cl_pt"></i></a></div>
 				<div class="graph_name">
 					<div id="graph_tr" class="graph_style">
 					</div>
