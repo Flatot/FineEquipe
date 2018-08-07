@@ -91,11 +91,11 @@ function print_graph(name) {
 jQuery(function ($) {
 
   (function () {
-        $(".home_part").height($(window).height());
+        // $(".home_part").height($(window).height());
 
-        $(window).resize(function(){
-            $(".home_part").height($(window).height());
-        });
+        // $(window).resize(function(){
+        //     $(".home_part").height($(window).height());
+        // });
 
     }());
 
