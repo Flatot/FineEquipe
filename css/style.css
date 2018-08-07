@@ -80,6 +80,10 @@
   }
 }
 
+#action>ul {
+  padding-left: 0px;
+}
+
 .cl_pt {
   cursor: pointer;
 }
