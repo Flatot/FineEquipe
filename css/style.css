@@ -55,7 +55,7 @@
 }
 
 .home_part {
-  background: url(../images/LaFineEquipeBack.gif) no-repeat center center fixed;
+  background: url(../images/LaFineEquipeBack.gif) no-repeat;
   display: table;
   height: 100%;
   position: relative;
@@ -64,6 +64,20 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+@media(min-width:992px) {
+  .home_part {
+    background: url(../images/LaFineEquipeBack.gif) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 }
 
 .cl_pt {
