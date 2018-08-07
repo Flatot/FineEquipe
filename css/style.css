@@ -1,9 +1,4 @@
-﻿html, body {
-  height: 100%;
-  width: 100%;
-}
-
-@font-face {
+﻿@font-face {
     font-family: 'broadmoor';
     src: url('../fonts/broadmoor/Broadmoor.otf') format("opentype");
 }
@@ -80,10 +75,6 @@
   }
 }
 
-#action>ul {
-  padding-left: 0px;
-}
-
 .cl_pt {
   cursor: pointer;
 }
@@ -139,6 +130,19 @@
   margin: 0;
 }
 
+.myAngleDown {
+  font-size: 100%;
+  padding-top: 235%;
+  color: #fff;
+}
+
+@media(min-width:992px) {
+  .myAngleDown {
+    font-size: 72px;
+    color: #fff;
+  }
+}
+
 .down-icon {
     position: absolute;
     left: 50%;
@@ -152,10 +156,9 @@
 }
 
 .graph_style {
-  min-width: 400px;
-  max-width: 600px;
+  min-width: 40%;
+  max-width: 100%;
   height: 280px;
-  margin: 0 auto;
 }
 
 .space_team {
